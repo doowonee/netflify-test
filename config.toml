@@ -1,0 +1,32 @@
+baseurl = "/"
+#DefaultContentLanguage = "en"
+DefaultContentLanguage = "ko"
+title = "the1900"
+theme = "beautifulhugo"
+metaDataFormat = "yaml"
+pygmentsUseClasses = true
+pygmentCodeFences = true
+#disqusShortname = "XXX"
+#googleAnalytics = "XXX"
+preserveTaxonomyNames = true
+
+[Params]
+  logo = "avatar.png"
+  favicon = "favicon.png"
+  dateFormat = "January 2, 2006"
+  commit = false
+  rss = true
+  comments = true
+
+[Author]
+  name = "the1900"
+  github = "the1900"
+  twitter = "the1900_"
+  linkedin = "username"
+  stackoverflow = "users/XXXXXXX/username"
+  youtube = "user/username" # or channel/channelname
+
+[[menu.main]]
+    name = "Tags"
+    url = "tags"
+    weight = 3
